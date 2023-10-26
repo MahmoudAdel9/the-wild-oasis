@@ -2,7 +2,7 @@ import styled from "styled-components";
 import BookingDataBox from "../../features/bookings/BookingDataBox";
 
 import Row from "../../ui/Row";
-import CheckBox from "../../ui/CheckBox";
+import Checkbox from "../../ui/Checkbox";
 import Heading from "../../ui/Heading";
 import ButtonGroup from "../../ui/ButtonGroup";
 import Button from "../../ui/Button";
@@ -88,7 +88,7 @@ function CheckinBooking() {
 
       {!hasBreakfast && (
         <Box>
-          <CheckBox
+          <Checkbox
             checked={addBreakfast}
             onChange={() => {
               setAddBreakfast((cur) => !cur);
@@ -98,12 +98,12 @@ function CheckinBooking() {
             id="breakfast"
           >
             Add Breakfast - {formatCurrency(optionalBreakfastPrice)}
-          </CheckBox>
+          </Checkbox>
         </Box>
       )}
 
       <Box>
-        <CheckBox
+        <Checkbox
           checked={confirmPaid}
           onChange={() => setConfirmPaid((cur) => !cur)}
           disabled={confirmPaid || isChecking}
@@ -117,7 +117,7 @@ function CheckinBooking() {
               )} (${formatCurrency(totalPrice)}+${formatCurrency(
                 optionalBreakfastPrice
               )})`}
-        </CheckBox>
+        </Checkbox>
       </Box>
       <ButtonGroup>
         <Button onClick={handleCheckin} disabled={!confirmPaid || isChecking}>

@@ -25,7 +25,7 @@ const StyledCheckbox = styled.div`
   }
 `;
 
-function CheckBox({ checked, onChange, disabled = false, id, children }) {
+function Checkbox({ checked, onChange, disabled = false, id, children }) {
   return (
     <StyledCheckbox>
       <input
@@ -40,4 +40,4 @@ function CheckBox({ checked, onChange, disabled = false, id, children }) {
   );
 }
 
-export default CheckBox;
+export default Checkbox;
