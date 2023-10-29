@@ -1,6 +1,6 @@
 # The Wild Oasis - React Project with Vite
 
-Welcome to The Wild Oasis React project with Vite from Jonas's ract Course! This is a custom application designed for a small boutique hotel called The Wild Oasis. The application serves as an internal tool for hotel employees to manage bookings, cabins, and guests. Additionally, it includes a customer-facing website where guests can book their stays using the same API.
+Welcome to The Wild Oasis React project with Vite from Jonas's react Course! This is a custom application designed for a small boutique hotel called The Wild Oasis. The application serves as an internal tool for hotel employees to manage bookings, cabins, and guests. Additionally, it includes a customer-facing website where guests can book their stays using the same API.
 
 ## Live Server :
 
