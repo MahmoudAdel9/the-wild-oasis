@@ -1,6 +1,6 @@
 import { useEffect, useRef } from "react";
 
-function useOutsideClick(handler, listenCapturing) {
+function useOutsideClick(handler, listenCapturing = true) {
   const thisWindow = useRef();
 
   useEffect(

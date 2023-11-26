@@ -9,6 +9,7 @@ function AddCabin() {
         <Modal.Open opens="add-form">
           <Button>Add Cabin</Button>
         </Modal.Open>
+
         <Modal.Window name="add-form">
           <CreateCabinForm />
         </Modal.Window>

@@ -124,7 +124,7 @@ function CreateCabinForm({ cabinToEdit = {}, onClose }) {
       <FormRow>
         <Label htmlFor="description">Description for website</Label>
         <Textarea
-          type="number"
+          type="text"
           id="description"
           disabled={isWorking}
           defaultValue=""
